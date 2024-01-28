@@ -126,11 +126,11 @@ const FooterTwo = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@gmail.com"
+                    href="mailto:info@nextgentext.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    info@nextgentext.com
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -175,15 +175,15 @@ const FooterTwo = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Crystal IT Park Indore M.P India
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+919131123541">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +91 91311 23541
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:contact@nextgentext.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  contact@nextgentext.com
                 </Link>
               </div>
             </div>
@@ -197,13 +197,13 @@ const FooterTwo = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
+                  <span id="copyYear">{currentYear}</span>{" "}
                   <Link
-                    href="https://themeforest.net/user/UltraDevs"
+                    href="/"
                     target="_blank"
                   >
                     {" "}
-                    UltraDevs
+                    NextGenTech
                   </Link>{" "}
                   . All Rights Reserved
                 </p>

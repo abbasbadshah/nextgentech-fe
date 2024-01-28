@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-import videobg from "public/images/banner/video-bg.png";
+import videobg from "public/images/banner/video-bg.webp";
 import dotlarge from "public/images/agency/dot-large.png";
 import arrow from "public/images/banner/arrow.png";
 
@@ -41,7 +41,7 @@ const HomeThreeBanner = () => {
               <div
                 className="banner-three__slider-single"
                 style={{
-                  backgroundImage: "url('/images/banner/banner-three-bg.png')",
+                  backgroundImage: "url('/images/banner/banner-two-bg-three.png')",
                 }}
               >
                 <div className="container">
@@ -192,12 +192,12 @@ const HomeThreeBanner = () => {
         <div className="banner-three__meta ban-three-g-meta">
           <div className="cta">
             <div className="single">
-              <h5 className="fw-7">12+</h5>
+              <h5 className="fw-7">5+</h5>
               <p className="fw-5">years of experience</p>
             </div>
             <div className="single">
-              <h5 className="fw-7">25k</h5>
-              <p className="fw-5">completed projects</p>
+              <h5 className="fw-7">100+</h5>
+              <p className="fw-5">Completed Projects</p>
             </div>
           </div>
           <div className="banner-three__video">

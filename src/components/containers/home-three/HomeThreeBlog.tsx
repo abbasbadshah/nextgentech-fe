@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import nine from "public/images/blog/nine.png";
-import ten from "public/images/blog/ten.png";
-import eleven from "public/images/blog/eleven.png";
+import eight from "public/images/blog/eight.webp";
+import ten from "public/images/blog/ten.webp";
+import eleven from "public/images/blog/eleven.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeThreeBlog = () => {
@@ -120,7 +120,7 @@ const HomeThreeBlog = () => {
                       }
                     >
                       <Link href="blog-single">
-                        <Image src={nine} alt="Image" />
+                        <Image src={eight} alt="Image" />
                       </Link>
                     </div>
                   </div>

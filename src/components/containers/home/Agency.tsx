@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import thumbone from "public/images/agency/thumb-one.png";
-import thumbtwo from "public/images/agency/thumb-two.png";
+import thumbone from "public/images/agency/thumb-one.webp";
+import thumbtwo from "public/images/agency/thumb-two.webp";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 

@@ -1,21 +1,21 @@
 import React from "react";
 import Layout from "@/components/layout/Layout";
-import HomeOneBanner from "@/components/layout/banner/HomeOneBanner";
-import Agency from "@/components/containers/home/Agency";
+import HomeThreeBanner from "@/components/layout/banner/HomeThreeBanner";
+import Agency from "@/components/containers/home-three/HomeThreeAgency";
 import PortfolioText from "@/components/containers/home/PortfolioText";
-import HomeOffer from "@/components/containers/home/HomeOffer";
+import HomeThreeServices from "@/components/containers/home-three/HomeThreeServices";
 import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
-import HomeBlog from "@/components/containers/home/HomeBlog";
+import HomeBlog from "@/components/containers/home-three/HomeThreeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={1} video={true}>
-      <HomeOneBanner />
+    <Layout header={2} footer={2} video={false}>
+      <HomeThreeBanner />
       <Agency />
       <PortfolioText />
-      <HomeOffer />
+      <HomeThreeServices />
       <HomeTestimonial />
       <HomeBlog />
       <HomeSponsor />

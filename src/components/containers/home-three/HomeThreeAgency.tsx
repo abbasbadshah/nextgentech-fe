@@ -4,7 +4,7 @@ import Link from "next/link";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 import clutch from "public/images/agency/clutch.png";
-import thumbthree from "public/images/agency/thumb-three.png";
+import thumbthree from "public/images/agency/thumb-three.webp";
 
 const HomeThreeAgency = () => {
   return (
@@ -36,16 +36,16 @@ const HomeThreeAgency = () => {
               </div>
               <div className="cta section__content-cta">
                 <div className="single">
-                  <h5 className="fw-7">12+</h5>
+                  <h5 className="fw-7">5+</h5>
                   <p className="fw-5">years of experience</p>
                 </div>
                 <div className="single">
-                  <h5 className="fw-7">25k</h5>
+                  <h5 className="fw-7">100+</h5>
                   <p className="fw-5">completed projects</p>
                 </div>
                 <div className="single">
-                  <h5 className="fw-7">120+</h5>
-                  <p className="fw-5">Team members</p>
+                  <h5 className="fw-7">10+</h5>
+                  <p className="fw-5">Head Executives</p>
                 </div>
               </div>
               <div className="section__content-cta cta-group">
