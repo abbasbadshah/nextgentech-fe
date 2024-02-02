@@ -175,7 +175,7 @@ const FooterTwo = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  Crystal IT Park Indore M.P India
+                  Tower Choraha Indore MP India
                 </Link>
                 <Link href="tel:+919131123541">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>

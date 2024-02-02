@@ -17,12 +17,9 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h4>Phone</h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile : +197-90-56-780</Link>
-                </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +44-208-1234567</Link>
+                  <Link href="tel:+919191123541">Mobile : +91 91311 23541</Link>
                 </p>
               </div>
             </div>
@@ -35,13 +32,8 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
-                  </Link>
-                </p>
-                <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
+                  <Link href="mailto:info@nextgentech.com">
+                  info@nextgentech.com
                   </Link>
                 </p>
               </div>
@@ -59,7 +51,7 @@ const ContactMain = () => {
                     href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                     target="_blank"
                   >
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Tower Choraha Indore MP India
                   </Link>
                 </p>
               </div>
@@ -72,8 +64,8 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Office Hour</h4>
-                <p>Sun - Thu 09 am - 06pm</p>
-                <p>Fri - Sat 4 pm - 10pm</p>
+                <p>Mon - Fri :- 10 AM - 7 PM</p>
+                <p>Saturday :- Close</p>
               </div>
             </div>
           </div>
@@ -123,11 +115,11 @@ const ContactMain = () => {
                       </div>
                       <div className="group-input drt">
                         <select className="subject">
-                          <option data-display="Subject">Subject</option>
-                          <option value="1">Account</option>
-                          <option value="2">Service</option>
-                          <option value="3">Pricing</option>
-                          <option value="4">Support</option>
+                          <option data-display="Subject">Services</option>
+                          <option value="1">Web App Development</option>
+                          <option value="2">Web Development</option>
+                          <option value="3">SEO & Digital Maketing</option>
+                          <option value="4">Graphic Desiging</option>
                         </select>
                       </div>
                       <div className="group-input ">

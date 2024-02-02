@@ -23,7 +23,7 @@ const HomeThreeAgency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+                We are digital creative agency in India
               </h2>
               <div className="paragraph">
                 <p>

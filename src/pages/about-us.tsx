@@ -14,7 +14,6 @@ const AboutUs = () => {
       <CmnBanner title="About Us" navigation="About Us" />
       <HomeTwoModal />
       <Agency />
-      <TeamMembers />
       <HomeTestimonial />
       <AboutSponsor />
       <AboutCta />

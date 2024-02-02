@@ -86,7 +86,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__list">
             <div className="navbar__menu">
               <ul>
-                <li className="navbar__item navbar__item--has-children nav-fade">
+                {/* <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
                     className={`navbar__dropdown-label ${isSubMenuButton(
@@ -132,32 +132,47 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us">About Us</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
                     className={`navbar__dropdown-label ${isSubMenuButton(
-                      "services"
+                      "about-us"
                     )}`}
-                    onClick={() => handleSubmenu("services")}
+                    onClick={() => handleSubmenu("about-us")}
                   >
-                    Services
+                    About
                   </button>
                   <ul
-                    className={`navbar__sub-menu ${isSubMenuOpen("services")}`}
+                    className={`navbar__sub-menu ${isSubMenuOpen("about-us")}`}
                   >
                     <li>
-                      <Link href="our-services">Our Services</Link>
+                      <Link href="about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Service Details</Link>
+                      <Link href="our-story">Our Story</Link>
+                    </li>
+                    <li>
+                      <Link href="faq">FAQ's</Link>
+                    </li>
+                    <li>
+                      <Link href="testimonials">Testimonials</Link>
                     </li>
                   </ul>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
+                <li className="navbar__item nav-fade">
+                  <Link href="our-services">Services</Link>
+                </li>
+                <li className="navbar__item nav-fade">
+                  <Link href="our-projects">Projects</Link>
+                </li>
+                <li className="navbar__item nav-fade">
+                  <Link href="our-portfolio">Our Portfolio</Link>
+                </li>
+                {/* <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
                     className={`navbar__dropdown-label ${isSubMenuButton(
@@ -250,7 +265,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="blog-single">Blog Details</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
