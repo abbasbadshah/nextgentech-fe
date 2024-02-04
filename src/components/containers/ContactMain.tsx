@@ -32,8 +32,8 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info@nextgentech.com">
-                  info@nextgentech.com
+                  <Link href="mailto:info@connecttofuture.com">
+                  info@connecttofuture.com
                   </Link>
                 </p>
               </div>

@@ -180,11 +180,11 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>NextGenTech | Complete Solution in All Aspects</title>
+        <title>Connect To Future | Stay Tune With Future Techology With Us</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"
-          content="Digital Agency Creative Portfolio Template"
+          content="Stay Tune With Future Techology With Us"
         />
       </Head>
       <div className={combinedClassName}>

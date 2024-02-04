@@ -126,11 +126,11 @@ const FooterTwo = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@nextgentext.com"
+                    href="mailto:info@connecttofuture.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@nextgentext.com
+                    info@connecttofuture.com
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -181,9 +181,9 @@ const FooterTwo = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +91 91311 23541
                 </Link>
-                <Link href="mailto:contact@nextgentext.com">
+                <Link href="mailto:contact@connecttofuture.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  contact@nextgentext.com
+                  contact@connecttofuture.com
                 </Link>
               </div>
             </div>
@@ -203,7 +203,7 @@ const FooterTwo = () => {
                     target="_blank"
                   >
                     {" "}
-                    NextGenTech
+                    Connect to Future
                   </Link>{" "}
                   . All Rights Reserved
                 </p>

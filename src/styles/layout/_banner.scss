@@ -265,6 +265,15 @@
       z-index: -1;
     }
   }
+  
+  @media screen and (max-width: 768px) {
+    .banner-three__slider-single {
+      background-position:center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  
 
   .banner-three__content {
     h1 {
