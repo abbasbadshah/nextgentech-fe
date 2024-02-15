@@ -159,16 +159,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            We were struggling to manage our massive database efficiently. Connect to Future implemented a robust data management system that streamlined our operations and improved data accessibility. Their team also provided invaluable training, empowering our staff to utilize the system effectively.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>David Patel</h5>
+                            <p>Founder, Social Media Agency</p>
                           </div>
                         </div>
                       </div>
@@ -203,16 +199,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            Connect to Future's branding expertise completely transformed our image. Their strategic approach and creative designs gave us a brand identity that resonates with our target audience and reflects our innovative spirit. We saw a significant increase in brand awareness and engagement thanks to their work.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Sarah Jones</h5>
+                            <p>Marketing Director, Tech Startup</p>
                           </div>
                         </div>
                       </div>
@@ -247,16 +239,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            I was initially hesitant to outsource our UI/UX design, but Connect to Future exceeded all my expectations. Their user-centric approach and data-driven insights resulted in a seamless and intuitive user experience that has boosted our conversions by 25%. They truly understand the power of good design.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Michael Lee</h5>
+                            <p>CEO, E-commerce Platform</p>
                           </div>
                         </div>
                       </div>

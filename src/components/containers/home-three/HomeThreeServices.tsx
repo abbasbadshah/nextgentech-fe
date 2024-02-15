@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import dotlarge from "public/images/agency/dot-large.png";
 import one from "public/images/service/one.webp";
+import branding from "public/images/service/branding.png";
+import development from "public/images/service/development.png";
+import uiux from "public/images/service/uiux.png";
 
 const HomeThreeServices = () => {
   const [imgTab, setImgTab] = useState(0);
@@ -50,12 +53,13 @@ const HomeThreeServices = () => {
                     01
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
-                  <h4>Digitalization</h4>
+                  <h4>Branding</h4>
                   <div className="p-single">
                     <p>
-                      We build intelligent next-generation solutions at the
-                      intersection of new business opportunities and
-                      technological innovations.
+                      Elevate your brand to new heights with strategic
+                      development, unforgettable visuals, and messaging that
+                      resonates deeply with your audience. Let us tell your
+                      story and connect you to the future.
                     </p>
                   </div>
                 </div>
@@ -63,24 +67,24 @@ const HomeThreeServices = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Legacy Modernization
+                      Brand Strategy & Development
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Solution Design
+                      Logo & Visual Design
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Technology Enabling
+                      Messaging & Communication
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Mobile-First Systems
+                      Marketing & Advertising
                     </li>
                   </ul>
                 </div>
                 <div className="single-item p-single p-sm">
-                  <Image src={one} alt="Image" />
+                  <Image src={branding} alt="Image" />
                 </div>
                 <button
                   className="toggle-service-f"
@@ -98,12 +102,13 @@ const HomeThreeServices = () => {
                     02
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
-                  <h4>Modernization</h4>
+                  <h4>UI/UX Design</h4>
                   <div className="p-single">
                     <p>
-                      We build intelligent next-generation solutions at the
-                      intersection of new business opportunities and
-                      technological innovations.
+                      Craft user-centric experiences that delight and engage. We
+                      translate user needs into intuitive interfaces and
+                      seamless journeys, driving success for your website, app,
+                      or software.
                     </p>
                   </div>
                 </div>
@@ -111,24 +116,24 @@ const HomeThreeServices = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Legacy Modernization
+                      User Research & Analysis
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Solution Design
+                      Interface Design
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Technology Enabling
+                      User Experience (UX) Design
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Mobile-First Systems
+                      Prototyping & Testing
                     </li>
                   </ul>
                 </div>
                 <div className="single-item p-single p-sm">
-                  <Image src={one} alt="Image" />
+                  <Image src={uiux} alt="Image" />
                 </div>
                 <button
                   className="toggle-service-f"
@@ -146,12 +151,13 @@ const HomeThreeServices = () => {
                     03
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
-                  <h4>Accelerating Innovation</h4>
+                  <h4>Development</h4>
                   <div className="p-single">
                     <p>
-                      We build intelligent next-generation solutions at the
-                      intersection of new business opportunities and
-                      technological innovations.
+                      Whether you need a robust website, captivating mobile app,
+                      powerful software, or an efficient online store, our
+                      skilled developers turn your vision into reality, on time
+                      and within budget.
                     </p>
                   </div>
                 </div>
@@ -159,24 +165,24 @@ const HomeThreeServices = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Legacy Modernization
+                      Web Development
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Solution Design
+                      Content Management Systems (CMS)
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Technology Enabling
+                      Plugins Development
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Mobile-First Systems
+                      E-commerce Development
                     </li>
                   </ul>
                 </div>
                 <div className="single-item p-single p-sm">
-                  <Image src={one} alt="Image" />
+                  <Image src={development} alt="Image" />
                 </div>
                 <button
                   className="toggle-service-f"
@@ -194,12 +200,10 @@ const HomeThreeServices = () => {
                     04
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
-                  <h4>Business consulting</h4>
+                  <h4>Digital Marketing</h4>
                   <div className="p-single">
                     <p>
-                      We build intelligent next-generation solutions at the
-                      intersection of new business opportunities and
-                      technological innovations.
+                    From search engine optimization (SEO) and pay-per-click (PPC) advertising to social media marketing and email campaigns, we offer a full range of digital marketing services to help businesses increase their online visibility and drive traffic, leads, and conversions.
                     </p>
                   </div>
                 </div>
@@ -207,15 +211,15 @@ const HomeThreeServices = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Legacy Modernization
+                      SEO Optimization
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Solution Design
+                      Meta Tags
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>
-                      Technology Enabling
+                      Social Media Management
                     </li>
                     <li>
                       <i className="fa-solid fa-angle-right"></i>

@@ -35,11 +35,10 @@ const OurMission = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Quality is Number One</h3>
+              <h3>Empowering Businesses for Success</h3>
               <div className="section__content-cta">
                 <p className="primary-text">
-                  We define quality as solutions that surpass customer needs on
-                  time and within budget.
+                Our mission at Connect to Future is simple yet ambitious: to empower businesses to thrive in the digital age. We believe that every business, regardless of size or industry, deserves access to the tools and resources needed to succeed in today's competitive marketplace. With this in mind, we are committed to providing innovative IT solutions, unparalleled expertise, and exceptional service to our clients. By understanding their unique needs and challenges, we strive to deliver tailored solutions that drive growth, efficiency, and success.
                 </p>
               </div>
             </div>
@@ -56,11 +55,10 @@ const OurMission = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>we Create Customer Value</h3>
+              <h3>Building a Brighter Future Through Technology</h3>
               <div className="section__content-cta">
                 <p className="primary-text">
-                  We define quality as solutions that surpass customer needs on
-                  time and within budget.
+                At Connect to Future, our vision is to be a catalyst for positive change and innovation in the business world. We envision a future where technology is not just a tool, but a driver of transformation and progress. By leveraging the latest advancements in IT, we aim to help businesses unlock new opportunities, streamline operations, and achieve their full potential. Through our relentless pursuit of excellence and commitment to innovation, we aspire to shape a brighter future for businesses and communities alike.
                 </p>
               </div>
             </div>

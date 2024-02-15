@@ -100,15 +100,22 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+                Empowering Businesses Through Innovation
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  At Connect to Future, we are passionate about harnessing the
+                  power of technology to drive meaningful change and
+                  transformation for businesses of all sizes. Established in
+                  2021, our journey began with a vision to connect businesses to
+                  the future through cutting-edge IT solutions and unrivaled
+                  expertise. Today, we stand as a trusted partner for businesses
+                  in India's Madhya Pradesh region, offering a comprehensive
+                  suite of services designed to propel them towards success in
+                  the digital age. With a team of dedicated professionals, a
+                  commitment to innovation, and a relentless focus on client
+                  satisfaction, we strive to empower businesses to thrive in an
+                  ever-evolving marketplace.
                 </p>
               </div>
               <div className="skill-wrap">
@@ -126,9 +133,9 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
+                    <p className="primary-text">Creativity</p>
                   </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
+                  <div className="skill-bar-wrapper" data-percent="100%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
                         <span className="percent-value"></span>
@@ -138,7 +145,7 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Digital Marketing</p>
+                    <p className="primary-text">Innovation</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">
@@ -148,12 +155,24 @@ const Agency = () => {
                     </div>
                   </div>
                 </div>
+                <div className="skill-bar-single">
+                  <div className="skill-bar-title">
+                    <p className="primary-text">Client Satisfaction</p>
+                  </div>
+                  <div className="skill-bar-wrapper" data-percent="100%">
+                    <div className="skill-bar">
+                      <div className="skill-bar-percent">
+                        <span className="percent-value"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="section__content-cta">
+              {/* <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">
                   Know More
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -53,9 +53,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              mobile app
+              Gold Price
               <br />
-              development
+              Calculation
             </Link>
           </h2>
         </div>
@@ -69,9 +69,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              brand identity
+              Business 
               <br />
-              difference
+              Directory
             </Link>
           </h2>
         </div>
@@ -85,9 +85,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              marketing app
+              WP Business 
               <br />
-              solutions
+              Directory
             </Link>
           </h2>
         </div>
@@ -101,9 +101,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              LMS web app
-              <br />
-              lication
+              Shopify Parcel 
+              <br /> 
+              Tracker
             </Link>
           </h2>
         </div>
@@ -117,9 +117,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              brand identity
+              E-Resume & Portfolio
               <br />
-              difference
+              Builder
             </Link>
           </h2>
         </div>
@@ -133,9 +133,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              digital website
+              Live Translation
               <br />
-              development
+              Telecaster
             </Link>
           </h2>
         </div>

@@ -33,7 +33,7 @@ const FaqMain = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    I&apos;m a total beginner. Can I still follow along?
+                    What services does Connect to Future offer?
                   </button>
                 </h5>
                 <div
@@ -46,10 +46,9 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      At Connect to Future, we offer a comprehensive range of IT
+                      services, including branding, UI designing, UX designing,
+                      development, digital marketing, and database handling.
                     </p>
                   </div>
                 </div>
@@ -72,7 +71,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Will you be updating the program?
+                    How can I request a quote for services?
                   </button>
                 </h5>
                 <div
@@ -85,10 +84,11 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      You can request a quote for our services by contacting us
+                      through our website or reaching out to our team directly
+                      via email or phone. We will be happy to discuss your
+                      requirements and provide you with a customized quote
+                      tailored to your needs.
                     </p>
                   </div>
                 </div>
@@ -111,7 +111,8 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Can I get an invoice for my purchase?
+                    Is Connect to Future only available in Madhya Pradesh,
+                    India?
                   </button>
                 </h5>
                 <div
@@ -124,10 +125,11 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      While our headquarters are located in Madhya Pradesh,
+                      India, we serve clients both locally and globally. We
+                      leverage technology to collaborate with clients regardless
+                      of their geographical location, ensuring that we can meet
+                      the needs of businesses worldwide.
                     </p>
                   </div>
                 </div>
@@ -150,7 +152,8 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    What is global search engine optimization?
+                    What industries does Connect to Future specialize in
+                    serving?
                   </button>
                 </h5>
                 <div
@@ -163,10 +166,52 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      Connect to Future works with businesses across various
+                      industries, including but not limited to e-commerce,
+                      healthcare, education, finance, and technology. Our team
+                      has expertise in adapting our services to meet the unique
+                      needs of different industries and sectors.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 4 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 4 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 4 ? -1 : 4)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    How experienced is the team at Connect to Future?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${
+                    imgTab === 4 ? " show " : ""
+                  }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                      Our team at Connect to Future consists of highly skilled
+                      professionals with years of experience in their respective
+                      fields. We have a proven track record of delivering
+                      successful projects and helping businesses achieve their
+                      goals through innovative IT solutions and strategic
+                      guidance.
                     </p>
                   </div>
                 </div>

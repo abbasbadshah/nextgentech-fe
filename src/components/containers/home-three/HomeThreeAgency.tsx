@@ -27,11 +27,15 @@ const HomeThreeAgency = () => {
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  Welcome to Connect to Future, where innovation meets
+                  excellence. Established in 2021, we have rapidly emerged as
+                  one of the leading IT companies in India, particularly in
+                  Madhya Pradesh (MP). Our relentless commitment to delivering
+                  top-notch services in branding, UI designing, UX designing,
+                  development, and database handling sets us apart in the
+                  industry. At Connect to Future, we envision a digital
+                  landscape where businesses thrive with cutting-edge solutions.
+                  Join us on this journey to connect to the future today.
                 </p>
               </div>
               <div className="cta section__content-cta">
