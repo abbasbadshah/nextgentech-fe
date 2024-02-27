@@ -6,7 +6,7 @@ import PortfolioMain from "@/components/containers/PortfolioMain";
 const OurPortfolio = () => {
   return (
     <Layout header={2} footer={2} video={0}>
-      <CmnBanner title="Portfolio Gallery" navigation="Portfolio Gallery" />
+      <CmnBanner title="Portfolio" navigation="Portfolio" />
       <PortfolioMain />
     </Layout>
   );

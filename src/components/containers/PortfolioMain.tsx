@@ -168,13 +168,13 @@ const PortfolioMain = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="section__content-cta text-center">
               <button className="btn btn--secondary">Load More..</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

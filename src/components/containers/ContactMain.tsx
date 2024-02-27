@@ -1,12 +1,34 @@
-import React from "react";
+import React, {useRef, useState} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import phone from "public/images/phone.png";
 import mail from "public/images/mail.png";
 import location from "public/images/location.png";
 import time from "public/images/time.png";
+import emailjs from 'emailjs-com';
 
 const ContactMain = () => {
+  const [resultMessage, setResultMessage] = useState<string>(''); // Define resultMessage state
+
+  const form = useRef<HTMLFormElement | null>(null);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (form.current) {
+      emailjs.sendForm("service_jcrve5j", "template_lhbxe8l", form.current, "m2QacO1xqb7PXcACJ")
+        .then(
+          (result) => {
+            console.log(result);
+            setResultMessage("Thank you for your message! We'll get in touch soon.");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      form.current.reset();
+    }
+  };
+    
   return (
     <section className="section contact-m fade-wrapper">
       <div className="container">
@@ -94,6 +116,8 @@ const ContactMain = () => {
                       action="#"
                       method="post"
                       className="section__content-cta"
+                      ref = {form}
+                      onSubmit={sendEmail}
                     >
                       <div className="group-wrapper">
                         <div className="group-input ">
@@ -114,7 +138,7 @@ const ContactMain = () => {
                         </div>
                       </div>
                       <div className="group-input drt">
-                        <select className="subject">
+                        <select className="subject" name="services-want">
                           <option data-display="Subject">Services</option>
                           <option value="1">Web App Development</option>
                           <option value="2">Web Development</option>
@@ -133,6 +157,7 @@ const ContactMain = () => {
                         <button type="submit" className="btn btn--primary">
                           Send Message
                         </button>
+                        {resultMessage && <p>{resultMessage}</p>}
                       </div>
                     </form>
                   </div>

@@ -41,7 +41,8 @@ const HomeThreeBanner = () => {
               <div
                 className="banner-three__slider-single"
                 style={{
-                  backgroundImage: "url('/images/banner/banner-two-bg-three.png')",
+                  backgroundImage:
+                    "url('/images/banner/banner-two-bg-three.png')",
                 }}
               >
                 <div className="container">
@@ -49,7 +50,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Drive Success with Tech Solutions
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -82,7 +83,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Elevate Your Online Presence
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -115,7 +116,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Ignite Your Digital Growth
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -173,7 +174,7 @@ const HomeThreeBanner = () => {
                 }
               >
                 <span>02</span>
-                <p>SOFTWARE ENGINEERS</p>
+                <p>WEB DESIGN AND DEVELOPMENT</p>
                 <div className="slider-progress"></div>
               </div>
               <div
@@ -183,7 +184,7 @@ const HomeThreeBanner = () => {
                 }
               >
                 <span>03</span>
-                <p>PRODUCT STRATEGY ADVISORS</p>
+                <p>DIGITAL MARKETING</p>
                 <div className="slider-progress"></div>
               </div>
             </div>
