@@ -159,7 +159,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                            We were struggling to manage our massive database efficiently. Connect to Future implemented a robust data management system that streamlined our operations and improved data accessibility. Their team also provided invaluable training, empowering our staff to utilize the system effectively.
+                              We were struggling to manage our massive database
+                              efficiently. Connect to Future implemented a
+                              robust data management system that streamlined our
+                              operations and improved data accessibility. Their
+                              team also provided invaluable training, empowering
+                              our staff to utilize the system effectively.
                             </h4>
                           </div>
                           <div className="content-cta">
@@ -199,7 +204,13 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                            Connect to Future's branding expertise completely transformed our image. Their strategic approach and creative designs gave us a brand identity that resonates with our target audience and reflects our innovative spirit. We saw a significant increase in brand awareness and engagement thanks to their work.
+                              Connect to Future's branding expertise completely
+                              transformed our image. Their strategic approach
+                              and creative designs gave us a brand identity that
+                              resonates with our target audience and reflects
+                              our innovative spirit. We saw a significant
+                              increase in brand awareness and engagement thanks
+                              to their work.
                             </h4>
                           </div>
                           <div className="content-cta">
@@ -239,7 +250,13 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                            I was initially hesitant to outsource our UI/UX design, but Connect to Future exceeded all my expectations. Their user-centric approach and data-driven insights resulted in a seamless and intuitive user experience that has boosted our conversions by 25%. They truly understand the power of good design.
+                              I was initially hesitant to outsource our UI/UX
+                              design, but Connect to Future exceeded all my
+                              expectations. Their user-centric approach and
+                              data-driven insights resulted in a seamless and
+                              intuitive user experience that has boosted our
+                              conversions by 25%. They truly understand the
+                              power of good design.
                             </h4>
                           </div>
                           <div className="content-cta">

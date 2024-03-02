@@ -86,8 +86,8 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Office Hour</h4>
-                <p>Mon - Fri :- 10 AM - 7 PM</p>
-                <p>Saturday :- Close</p>
+                <p>Mon - Fri</p>
+                <p>10 AM - 7 PM</p>
               </div>
             </div>
           </div>
@@ -140,10 +140,10 @@ const ContactMain = () => {
                       <div className="group-input drt">
                         <select className="subject" name="services-want">
                           <option data-display="Subject">Services</option>
-                          <option value="1">Web App Development</option>
-                          <option value="2">Web Development</option>
-                          <option value="3">SEO & Digital Maketing</option>
-                          <option value="4">Graphic Desiging</option>
+                          <option value="Web App Development">Web App Development</option>
+                          <option value="Web Development">Web Development</option>
+                          <option value="SEO & Digital Maketing">SEO & Digital Maketing</option>
+                          <option value="Graphic Desiging">Graphic Desiging</option>
                         </select>
                       </div>
                       <div className="group-input ">
