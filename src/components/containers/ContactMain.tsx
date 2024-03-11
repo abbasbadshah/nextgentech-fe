@@ -99,7 +99,7 @@ const ContactMain = () => {
                 <div className="col-12 col-lg-6">
                   <div className="contact__map fade-top">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.49482446615!2d75.6990383003202!3d22.723888290820824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1709963170219!5m2!1sen!2sin"
                       width="100"
                       height="800"
                       style={{ border: "0px" }}
@@ -125,7 +125,8 @@ const ContactMain = () => {
                             type="text"
                             name="contact-name"
                             id="contactName"
-                            placeholder="Name"
+                            placeholder="Full Name"
+                            required
                           />
                         </div>
                         <div className="group-input ">
@@ -134,23 +135,64 @@ const ContactMain = () => {
                             name="contact-email"
                             id="contactEmail"
                             placeholder="Email"
+                            required
                           />
                         </div>
                       </div>
+                      <div className="group-wrapper">
+                        <div className="group-input ">
+                          <input
+                            type="text"
+                            name="company"
+                            id="companyName"
+                            placeholder="Company Name"
+                            required
+                          />
+                        </div>
+                        <div className="group-input drt">
+                        <select className="subject" name="industry" required>
+                          <option data-display="Subject">Select Industry</option>
+                          <option data-display="Health Care">Health Care</option>
+                          <option value="Finance">Finance</option>
+                          <option value="Consultancy">Consultancy</option>
+                          <option value="Agency">Agency</option>
+                          <option value="Ecommerce">Ecommerce</option>
+                          <option value="Retail">Retail</option>
+                          <option value="Travel & Logistics">Travel & Logistics</option>
+                          <option value="Public Services">Public Services</option>
+                          <option value="Communication & Media">Communication & Media</option>
+                          <option value="Education">Education</option>
+                          <option value="Others">Others</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div className="group-wrapper">
                       <div className="group-input drt">
-                        <select className="subject" name="services-want">
-                          <option data-display="Subject">Services</option>
+                        <select className="subject" name="services-want" required>
+                          <option data-display="Subject">Select Services</option>
                           <option value="Web App Development">Web App Development</option>
                           <option value="Web Development">Web Development</option>
                           <option value="SEO & Digital Maketing">SEO & Digital Maketing</option>
                           <option value="Graphic Desiging">Graphic Desiging</option>
+                          <option value="Dashboard Development">Dashboard Development</option>
                         </select>
+                      </div>
+                      <div className="group-input ">
+                          <input
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            placeholder="Subject"
+                            required
+                          />
+                        </div>
                       </div>
                       <div className="group-input ">
                         <textarea
                           name="contact-message"
                           id="contactMessage"
-                          placeholder="Message"
+                          placeholder="Leave a Message"
+                          required
                         ></textarea>
                       </div>
                       <div className="form-cta justify-content-start">
